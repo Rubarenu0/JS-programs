@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Programs</title>
+</head>
+<body>
+    <script>
+        //Array Creation and Initialization
+        document.write("Array Creation and Initialization <br>")
+        let arr=[10,20,30,40,50];
+        document.write(arr,"<br>");
+        document.write("<hr>")
+
+        //Array Manipulation
+
+        document.write("Array Manipulation"+"<br>")
+        //Unshift
+        document.write("Unshift-80 <br>")
+        arr.unshift(80)
+        document.write(arr,"<br>")
+        //Push
+        document.write("Push-90 <br>")
+        arr.push(90);
+        document.write(arr,"<br>")
+        //Pop
+        document.write("Pop-90 <br>")
+        arr.pop(90);
+        document.write(arr,"<br>")
+        //Shift
+        document.write("Shift-80 <br>")
+        arr.shift(80);
+        document.write(arr,"<br>")
+        document.write("<hr>")
+
+        //Array Searching
+        //IndexOf
+        document.write("Array Searching <br>")
+        document.write("IndexOf-20 <br>")
+        document.write(arr.indexOf(20),"<br>")
+        //Includes
+        document.write("Includes-70 <br>")
+        document.write(arr.includes(70),"<br><br>")
+        document.write("<hr>")
+
+        //Array Mapping
+        document.write("Array Mapping <br>")
+        let arrr=[1,2,3,4];
+        let newArr=arrr.map(x=>x*2)
+        document.write(newArr);
+        document.write("<hr>");
+
+        //Sorting
+        document.write("Sorting <br>")
+        let arr1=[5,2,9,1,3];
+        arr1.sort();
+        document.write(arr1);
+        document.write("<hr>") 
+        //Reverse
+        document.write("Reverse <br>")
+        arr1.reverse();
+        document.write(arr1,"<hr>"); 
+
+        //Maximum
+        document.write("Maximum <br>")
+        document.write(Math.max(...arr1),"<hr>"); 
+
+        //Minimum
+
+        document.write("Minimum <br>")
+        document.write(Math.min(...arr1),"<hr>"); 
+
+    </script>
+</body>
+</html>
